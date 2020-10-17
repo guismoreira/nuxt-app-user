@@ -85,6 +85,6 @@ export default {
   ]
 },
 router: {
-  base: '/orion-users-service/'
+  base: '/'
 }
 }
