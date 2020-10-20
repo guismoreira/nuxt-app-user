@@ -168,20 +168,18 @@ export default {
 @media (min-width: 412px) {
   .jumbotron {
     background: rgb(255, 250, 250);
-    width: 550px;
     display: inline-block;
-    margin: 0.5em 0;
-    padding: 1em 2em;
+    width: 500px;
+    margin: 0 auto;
   }
 }
 /*screen upto 400px*/
-@media (max-width: 400px) {
+@media (max-width: 411px) {
   .jumbotron {
     background: rgb(255, 250, 250);
-    width: 340px;
     display: inline-block;
-    margin: 0.5em 0;
-    padding: 1em 2em;
+    width: 300px;
+    margin: 0 auto;
   }
 }
 
