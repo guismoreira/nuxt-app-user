@@ -165,7 +165,7 @@ export default {
 </script>
 
 <style>
-@media (min-width: 412px) {
+@media (min-width: 416px) {
   .jumbotron {
     background: rgb(255, 250, 250);
     display: inline-block;
@@ -174,7 +174,7 @@ export default {
   }
 }
 /*screen upto 400px*/
-@media (max-width: 411px) {
+@media (max-width: 415px) {
   .jumbotron {
     background: rgb(255, 250, 250);
     display: inline-block;
