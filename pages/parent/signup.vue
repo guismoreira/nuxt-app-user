@@ -165,13 +165,26 @@ export default {
 </script>
 
 <style>
-.jumbotron {
-  background: rgb(255, 250, 250);
-  width: 550px;
-  display: inline-block;
-  margin: 0.5em 0;
-  padding: 1em 2em;
+@media (min-width: 412px) {
+  .jumbotron {
+    background: rgb(255, 250, 250);
+    width: 550px;
+    display: inline-block;
+    margin: 0.5em 0;
+    padding: 1em 2em;
+  }
 }
+/*screen upto 400px*/
+@media (max-width: 400px) {
+  .jumbotron {
+    background: rgb(255, 250, 250);
+    width: 340px;
+    display: inline-block;
+    margin: 0.5em 0;
+    padding: 1em 2em;
+  }
+}
+
 .bbutton:hover {
   background: black;
   color: rgb(255, 250, 250);
