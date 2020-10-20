@@ -1,4 +1,6 @@
-# ui
+# Nuxt 
+
+https://nuxt-app-user.vercel.app/
 
 ## Build Setup
 
