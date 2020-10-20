@@ -167,6 +167,10 @@ export default {
 <style>
 .jumbotron {
   background: rgb(255, 250, 250);
+  width: 550px;
+  display: inline-block;
+  margin: 0.5em 0;
+  padding: 1em 2em;
 }
 .bbutton:hover {
   background: black;

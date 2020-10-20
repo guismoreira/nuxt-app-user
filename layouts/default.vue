@@ -10,7 +10,5 @@
 
 <style scooped>
 .default-style {
-  height: 640px;
-  width: 580px;
 }
 </style>
