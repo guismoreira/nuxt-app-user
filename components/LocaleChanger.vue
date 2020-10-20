@@ -20,7 +20,7 @@
 export default {
   name: 'LocaleChanger',
   data() {
-    return { langs: ['fr', 'en', 'pt'] }
+    return { langs: ['esp', 'fr', 'en', 'pt'] }
   },
 }
 </script>
