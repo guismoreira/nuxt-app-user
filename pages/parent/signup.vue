@@ -101,7 +101,7 @@
               <div class="form-group">
                 <b-button
                   class="bbutton"
-                  variant="warning"
+                  variant="outline-primary"
                   type="submit"
                   :disabled="$v.$anyError"
                   size="lg"
@@ -166,10 +166,11 @@ export default {
 
 <style>
 .jumbotron {
-  background: rgba(255, 149, 10, 0.5);
+  background: rgb(255, 250, 250);
 }
 .bbutton:hover {
   background: black;
-  color: orange;
+  color: rgb(255, 250, 250);
+  variant: 'outline-primary';
 }
 </style>
